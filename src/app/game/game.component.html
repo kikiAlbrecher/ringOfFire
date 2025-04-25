@@ -14,6 +14,8 @@
     </div>
 </div>
 
-<button mat-fab aria-label="Example icon button with a delete icon" class="btn-add" (click)="openDialog()">
+<app-game-description [card]="currentCard" class="pin-bottom"></app-game-description>
+
+<button mat-fab aria-label="Button with a plus icon for adding" class="btn-add" (click)="openDialog()">
     <mat-icon>add</mat-icon>
 </button>
